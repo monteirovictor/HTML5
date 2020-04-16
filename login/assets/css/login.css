@@ -1,5 +1,7 @@
+/* com * ele é global */
 *{
     box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -66,4 +68,15 @@ body{
 .content-center button:active{
     background-color: rgb(226, 43, 83);
     
+}
+
+header h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer{
+    font-size: .8em;
+    text-align: center;
 }
