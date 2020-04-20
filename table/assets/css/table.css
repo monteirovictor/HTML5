@@ -98,3 +98,8 @@ footer{
     padding: .75rem;
     border-top: 1px solid white;
 }
+
+#valora{
+    width: 100%;
+    padding: 10px;
+}

@@ -1,6 +1,12 @@
-let tabuada  = document.querySelector('#tabuada tbody');
 
-let valora=5;
+function tabuada(){
+
+
+
+let tabuada  = document.querySelector('#tabuada tbody');
+let valora = parseInt(document.querySelector('#valora').value);
+
+
 
 tabuada.innerHTML = '';
 
@@ -24,4 +30,6 @@ for (let valorb = 0; valorb <=10 ;valorb++){
 
     tabuada.append(tr);
 
-}
+}}
+
+tabuada();
