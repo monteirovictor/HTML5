@@ -100,3 +100,8 @@ footer{
     text-decoration: line-through;
     color: #999;
 }
+
+#new-task{
+    width: 100px;
+    padding: 10px;
+}
